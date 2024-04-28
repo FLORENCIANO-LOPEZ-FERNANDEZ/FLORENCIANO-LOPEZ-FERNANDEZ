@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+}
+footer{
+    background-color: #faca53;
+}
+nav{
+    background-color: #faca53;
+}
+#img-logo{
+    width: 100px;
+    height: 100px;
+}
+#social-btn a{
+    transition: 0.5s;
+}
+#social-btn a:hover{
+    color: white;
+    transform: scale(1.5);
+    text-shadow: 0.5px 0.5px 2px black;
+}
