@@ -4,7 +4,7 @@ html {
 }
 
 img {
-    opacity: 0.7;
+    opacity: 0.6;
     filter: brightness(0.7);
     transition: filter 0.5s;
 }
