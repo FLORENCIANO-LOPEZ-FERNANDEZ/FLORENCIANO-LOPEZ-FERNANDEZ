@@ -1,3 +1,10 @@
+body::-webkit-scrollbar{
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #faca53;
+    border-radius: 5px;
+}
 footer{
     background-color: #faca53;
 }
@@ -15,6 +22,11 @@ nav{
     color: white;
     transform: scale(1.5);
     text-shadow: 0.5px 0.5px 2px black;
+}
+@media(max-width: 575.98px){
+    ul li{
+        font-size: small;
+    }
 }
 #btn-lan{
     
