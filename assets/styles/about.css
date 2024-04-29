@@ -1,0 +1,30 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container img {
+    opacity: 0.6;
+    filter: brightness(0.7);
+    transition: filter 0.5s;
+}
+
+img:hover {
+    filter: brightness(0.2);
+}
+
+.image-container {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+#text-warning {
+    color: #faca53;
+}

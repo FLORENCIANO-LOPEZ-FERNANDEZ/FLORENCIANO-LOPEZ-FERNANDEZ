@@ -3,33 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formo-Zapp</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles/index.css">
 </head>
 
-<body class="bg-dark">
-      <nav class="bg-warning pb-2 d-flex justify-content-between">
-        <img id="img-logo" class="ms-2" src="./assets/img/logoZapa.png" alt="">
-        <ul class="nav nav-underline col-12 d-flex justify-content-center align-items-center">
+<body class="bg-dark container-fluid">
+  
+    <nav class="pb-2 row ">
+        <a href="index.html" class="col-12 col-lg-3 d-flex justify-content-center">
+            <img id="img-logo" class="" src="./assets/img/logoZapa.png" alt="">
+        </a>
+        <ul class="nav nav-underline col-12 col-lg-7 d-flex justify-content-around align-items-center">
             <li class="nav-item">
-            <a class="nav-link text-dark" aria-current="page" href="#">INICIO</a>
+            <a class="nav-link text-dark fw-bold" aria-current="page" href="home.html">INICIO</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-dark" href="#">PRODUCTOS</a>
+            <a class="nav-link text-dark fw-bold" href="products.html">PRODUCTOS</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-dark" href="#">ACERCA DE NOSOTROS</a>
+            <a class="nav-link text-dark fw-bold" href="about.html">ACERCA DE NOSOTROS</a>
             </li>
         </ul>
-      </nav>
+    </nav>
 
-      <main>
-        main
-      </main>
+    <main class="d-flex flex-wrap align-items-center justify-content-center">
+        <img class="col-12 col-lg-6 mt-3 mb-3" src="./assets/img/imgLan.png" alt="">
+        <div class="w-25 col d-flex flex-column align-items-center">
+                <h3 class="text-white w-75 text-center h-25">¡Bienvenido a FormoZap!</h3>
+                <p class="text-white w-75 h-25">Tu destino definitivo para las zapatillas importadas más elegantes y exclusivas.Nos enorgullece ofrecerte una cuidadosa selección de las marcas más renombradas a nivel internacional, trayendo lo mejor de la moda mundial directamente a tu puerta. Eleva tu estilo a nuevos niveles!🔥​👟​</p>
+            <a href="home.html" id="btn-lan" class="btn mb-3">ADELANTE!</a>
+        </div>
+    </main>
 
-      <footer class="text-center bg-warning">
+    <footer class="text-center row">
         <div class="container pt-4">
           <section class="mb-4" id="social-btn">
             <a
@@ -82,12 +90,11 @@
             ></a>
           </section>
         </div>
-        <div class="text-center p-3 bg-body-tertiary" style="background-color: rgba(0, 0, 0, 0.05);">
-          © 2020 Copyright:
-          <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <div class="text-center border-top border-black p-3 bg-body-tertiary">
+          © 2024 Copyright:
+          <a class="text-body" href="https://github.com/FLORENCIANO-LOPEZ-FERNANDEZ/FLORENCIANO-LOPEZ-FERNANDEZ.git">FormoZap.com</a>
         </div>
-      </footer>
-
+    </footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
